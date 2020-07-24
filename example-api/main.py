@@ -1,11 +1,12 @@
 import datetime
-from calendar import calendar
+import calendar
 from typing import Dict
 
 from dateutil.relativedelta import relativedelta
 from flask import jsonify
 
 MONTHLY = 12
+FORTNIGHTLY = 24
 
 
 def cat(request):
