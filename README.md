@@ -12,10 +12,10 @@ Existe cierta resistencia como desarrolladores en ~~perder~~ dedicar tiempo a cr
 - Cuando existen muchos casos de uso
 
 ## ¿Cómo afecta o ayuda en el mantenimiento del código?
-Por un lado nos ayuda a validar que todo sigue funcionando como se planeó anteriormente, por otro lado nos ayuda a probar nuevos casos de uso no previstos.
+Por un lado nos ayuda a validar que todo sigue funcionando como se planeó, por otro lado nos ayuda a probar nuevos casos de uso no previstos.
 
 ## ¿Cómo ayuda al proceso de análisis?
-Nos obliga pensar en la información / datos / variables que necesitamos de entrada y valores / información / cálculos de salida, ya sea en forma de variables o como registros en la base de datos.
+Nos obliga a pensar con que datos vamos a alimentar las pruebas y que resultados esperamos, lo que nos ayuda a encontrar la información o datos que utilizaremos como variables de entrada y los valores de salida para nuestro programa, ya sea en forma de variables o como registros en la base de datos.
 
 ## ¿Qué tipo de cosas no deberíamos probar?
 - Funcionalidad propia del framework o librería que estemos usando, tienen sus propias pruebas unitarias
@@ -29,7 +29,7 @@ Hasta cierto punto nos ayudan como documentación, porque están plasmados los c
 Idealmente con herramientas de integración continua nos daría alertas o feedback sobre los cambios que hacemos en el código, lo que nos da cierto grado de confianza o seguridad para liberar nuevo código.
 
 ## ¿Cómo es desarrollar sin pruebas unitarias?
-Hacemos cambios con la esperanza de que no estamos rompiendo algo en otro lado, ¿por que? porque probar código previamente probado y liberado implica dedicar el mismo tiempo para probar que se le dedico en su momento.
+Hacemos cambios con la esperanza de que no estamos rompiendo algo en otro lado, ¿por que? porque probar código previamente probado y liberado implica dedicar el mismo tiempo para probar que se le dedicó en su momento.
 
 ## ¿Nice to have? ¿Must to have?
 Depende de cada situación y el valor de retorno que podríamos obtener al invertir tiempo y esfuerzo en hacer pruebas unitarias o de integración
